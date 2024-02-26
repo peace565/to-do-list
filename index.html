@@ -2,17 +2,38 @@
 <html>
     
     <head>
-        <title>To-do List</title>
+        <title>To-do List App</title>
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="learnable-app.css" rel="stylesheet">
+  <link href="leanable-app.css" rel="stylesheet">
     </head>
-    <div class="header">
+    <body>
+    <div class="container">
+    <header>
  <h2>Helping you get the job done........</h2>
-    </div>
+    </header>
+    
     <div class="heading">
-        <h2>Create your To-do List</h2>
         
+         <h2>Create your To-do List        <img class="icon" src="images\notepad image.png" >  </h2>
+         <div class="tasks">
+            <input type="text" id="input-box" placeholder="Write the task">
+            <button onclick ="addTask()">Add</button>
+           
+         </div>
+         
+         <ul id="task-container">
+            
+            
+           <!--<li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>-->
+        </ul>
 
+        </div>
+
+       
     </div>
+    <script src="learnable-app.js"></script> 
+</body>
 </html>
